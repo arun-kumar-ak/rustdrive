@@ -1,0 +1,2 @@
+[alias]
+watch-core = "watch -- cargo build -p rustdrive-core"

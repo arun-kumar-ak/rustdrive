@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "rust-analyzer.rustfmt.extraArgs": ["--config-path", "./rustfmt.toml"],
+    "[rust]": {
+        "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    }
+}

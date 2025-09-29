@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "rustdrive-cli",
+    "rustdrive-server",
+    "rustdrive-core",
+    "rustdrive-tests",
+]
+resolver = "2"
