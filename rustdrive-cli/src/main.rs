@@ -32,7 +32,7 @@ fn main() -> Result<()> {
         }
         Commands::List => {
             println!("Listing files...");
-            if let Ok(all_files) = modules::file_crud_op::get_all_files()  {
+            if let Ok(all_files) = modules::file_crud_op::get_files()  {
                 if all_files.len() == 0 {
                     println!("No files found.");
                     return Ok(());
